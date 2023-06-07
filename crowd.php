@@ -12,7 +12,7 @@
 
     <?php
     // Read the CSV file
-    $file = fopen('C://Users/HARSHVARDHAN/Downloads/Project_Final/Crowd_Counting/people1_count.csv', 'r');
+    $file = fopen('/people1_count.csv', 'r');
 
     // Initialize arrays to store data
     $labels = [];
