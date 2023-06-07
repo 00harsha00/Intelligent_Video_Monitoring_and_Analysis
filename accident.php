@@ -53,7 +53,7 @@
 <body>
 
 <?php
-$directory = "accident/";
+$directory = "give revelevant file location/";
 $files = glob($directory . "*.{jpg,jpeg,png,gif}", GLOB_BRACE);
 
 if (empty($files)) {
